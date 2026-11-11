@@ -1,0 +1,27 @@
+# control de versiones
+.git
+.gitignore
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# secretos
+.env
+
+# editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ficheros que no necesita la imagen de la api
+cliente_python/
+frontend/
+README.md
+Dockerfile
+.dockerignore
+docker-compose.yml
